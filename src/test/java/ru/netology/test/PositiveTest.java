@@ -31,7 +31,7 @@ public class PositiveTest extends TestBase {
             paymentPage.fillForm(info);
             paymentPage.waitIfSuccessMessage();
 
-            val expectedAmount = "500000";
+            val expectedAmount = "4500000";
             val actualAmount = getPaymentAmount();
             assertEquals(expectedAmount, actualAmount);
 
