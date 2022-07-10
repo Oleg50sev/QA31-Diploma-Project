@@ -25,12 +25,12 @@
 Симулятор написан на Node.js, поэтому для запуска нужен Docker. Симулятор расположен в каталоге **gate-simulator**. Набор карт представлен в формате JSON в файле **data.json**.
 ## ДОКУМЕНТАЦИЯ
 1. [План автоматизации](https://github.com/Oleg50sev/QA31-Diploma-Project/blob/96854c9715f6bd99156d5f677d26d986cb8438a7/documents/Plan.md).
-2. Отчёт по итогам тестирования
-3. Отчёт по итогам автоматизации
+2. [Отчёт по итогам тестирования](https://github.com/Oleg50sev/QA31-Diploma-Project/blob/master/documents/Report.md).
+3. [Отчёт по итогам автоматизации](https://github.com/Oleg50sev/QA31-Diploma-Project/blob/master/documents/Summary.md).
 
 ## ЗАПУСК ПРИЛОЖЕНИЯ
 ### ПРЕДУСЛОВИЯ
-1. Необходимо ознакомиться и использовать перечень инструментов, указанных в **Плане автоматизации**.
+1. Необходимо ознакомиться и использовать перечень инструментов, указанных в [Плане автоматизации](https://github.com/Oleg50sev/QA31-Diploma-Project/blob/master/documents/Plan.md#%D0%BF%D0%B5%D1%80%D0%B5%D1%87%D0%B5%D0%BD%D1%8C-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D0%BC%D1%8B%D1%85-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-%D1%81-%D0%BE%D0%B1%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0).
 2. Склонировать репозиторий командой:`git clone https://github.com/Oleg50sev/QA31-Diploma-Project.git`
 3. Запустить **Docker Desktop**
 4. Открыть проект в IntelliJ IDEA.
