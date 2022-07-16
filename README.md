@@ -53,3 +53,15 @@
 1. Для генерации отчета и автоматического открытия его в браузере следует ввести в терминале IntelliJ IDEA команду:
 `./gradlew allureServe`
 2. Подождать генерации отчета и посмотреть его в открывшемся браузере.
+
+## ИНТЕГРАЦИЯ ПРОЕКТА В CI ЧЕРЕЗ GitHub Actions.
+Для этого в [gradle.yml](https://github.com/Oleg50sev/QA31-Diploma-Project/blob/master/.github/workflows/gradle.yml) были заложены последовательность и способ запуска docker-контейнеров с СУБД PostgreSQL, MySQL и Node.js, а также SUT и автотестов.
+
+На каждый `git push` в локальном репозитории запускается автоматическая сборка в CI. Сервер CI запускает сборку и автотесты. После их прохождения сервер CI информирует GitHub о результатах сборки. Для наглядности реализован **бейджик сборки**.
+
+### БЕЙДЖИК СБОРКИ.
+
+[![Java CI with Gradle](https://github.com/Oleg50sev/QA31-Diploma-Project/actions/workflows/gradle.yml/badge.svg)](https://github.com/Oleg50sev/QA31-Diploma-Project/actions/workflows/gradle.yml)
+
+
+
